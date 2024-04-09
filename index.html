@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="form-header">
+        <img src="logo.jpg" class="logo">
+    </header>
+
+
+    <form action="" method="get" class="speaker-form">
+        <div class="intro">
+           <div class="form-column">
+               <div class="form-row">
+                   <label for="full-name">Name: </label>
+                   <input type="text" id="full-name" name="full-name">
+               </div>
+               <div class="form-row">
+                   <label for="email">Email: </label>
+                   <input type="email" id="email" name="email" placeholder="pupsmb@example.com">
+               </div>
+           </div>
+           <div class="form-column">
+               <div class="form-row">
+                   <label for="age">Age: </label>
+                   <input type="text" name="age" id="">
+               </div>
+           </div>
+       </div>
+           
+       <div class="container">
+           <div class="menu-title">
+               <h1 class="h1">Type of Cuisine</h1>
+           </div>
+           <div id="dropdown">
+               <button class="dropdown-toggle">
+                   <span>Menu</span>
+                   <img src="arrow-up-solid.svg" alt="" srcset="" class="adjust">
+               </button>
+       
+               <ul class="menu">
+                   <li class="menu-item">
+                       <a href="#" class="submenu-toggle">Filipino</a>
+                       <ul class="submenu">
+                        <li class="submenu-item"><a href="#">Adobo</a></li>
+                        <li class="submenu-item"><a href="#">Pork-Liempo</a></li>
+                        <li class="submenu-item"><a href="#">Caldereta</a></li>
+                    </ul>
+                   </li>
+       
+                   <li class="menu-item">
+                       <a href="#" class="submenu-toggle">Japanese</a>
+
+                       <ul class="submenu">
+                        <li class="submenu-item"><a href="#">Sashimi</a></li>
+                        <li class="submenu-item"><a href="#">Soba</a></li>
+                        <li class="submenu-item"><a href="#">Ramen</a></li>
+                    </ul>
+                   </li>
+       
+                   <li class="menu-item dropdown">
+                       <a href="#" class="submenu-toggle">
+                           <span>Healthy Options</span>
+                       </a>
+       
+                       <ul class="submenu">
+                           <li class="submenu-item"><a href="#">High-Protein</a></li>
+                           <li class="submenu-item"><a href="#">Vegan</a></li>
+                           <li class="submenu-item"><a href="#">Gluten-Free</a></li>
+                           
+                       </ul>
+                   </li>
+       
+                   <li class="menu-item">
+                       <a href="#" class="submenu-toggle">Mexican</a>
+
+                       <ul class="submenu">
+                        <li class="submenu-item"><a href="#">Tacos al Pastor</a></li>
+                        <li class="submenu-item"><a href="#">Guacamole</a></li>
+                        <li class="submenu-item"><a href="#">Mole Poblano</a></li>
+                    </ul>
+                   </li>
+       
+                   <li class="menu-item dropdown">
+                       <a href="#" class="submenu-toggle">
+                           <span>Specials</span>
+                           <img src="arrow-up-solid.svg" alt="" srcset="" class="adjust2">
+                       </a>
+       
+                       <ul class="submenu">
+                           <li class="submenu-item"><a href="#">Puto ni Richard</a></li>
+                           <li class="submenu-item"><a href="#">Pinritong Okra ni Jacob</a></li>
+                           <li class="submenu-item"><a href="#">Tortang Talong ni Zai</a></li>
+                       </ul>
+                   </li>
+               </ul>
+           </div>
+       </div>
+       
+
+       <fieldset class="legacy-form-row">
+           <legend>Type of Payment</legend>
+
+           <div class="radio">
+               <input type="radio" id="payment-type-1" name="payment-type" value="Cash" >
+               <label for="payment-type-1" class="radio-label">Cash</label>
+
+               <input type="radio" id="payment-type-2" name="payment-type" value="Credit/Debit" >
+               <label for="payment-type-2" class="radio-label">Credit/Debit</label>
+               
+               <input type="radio" id="payment-type-2" name="payment-type" value="Pay Online" >
+               <label for="payment-type-2" class="radio-label">Pay Online</label>
+               
+           </div>
+           
+       </fieldset>
+
+       <fieldset class="legacy-form-row">
+           <legend>Mode of Eating</legend>
+
+           <div class="radio">
+               <input type="radio" id="eating-type-1" name="eating" value="Dine In" >
+               <label for="eating-type-1" class="radio-label">Dine In</label>
+
+               <input type="radio" id="eating-type-2" name="eating" value="Take Out" >
+               <label for="eating-type-2" class="radio-label">Take Out</label>
+           </div>
+           
+       </fieldset>
+
+       <div class='form-row'>
+        <label for='abstract' id="title">Comments</label>
+        <textarea id='abstract' name='abstract'></textarea>
+        <div class='instructions'>Describe your talk in 500 words or less</div>
+    </div> 
+
+<div class = "form-row">
+    <div class="button">
+    <button class="btn">Place Order </button>
+    <button class="btn">Cancel </button>
+    </div>
+    
+</div>
+       
+   </form>
+    <script src="script.js"></script> 
+</body>
+</html>
